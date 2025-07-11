@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+h1:first-of-type {
+    background-color: #4caf50;
+    color: white;
+}
+
+h1:last-of-type {
+    background-color: #2196f3;
+    color: white;
+}
+
+h1:hover {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
